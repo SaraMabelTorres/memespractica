@@ -1,0 +1,55 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+/* Estilos para el contenedor de opciones */
+.options {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.options label, .options select, .options input, .options button {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Estilos para el contenedor del meme */
+.meme-container {
+    margin-top: 20px;
+    display: none;
+}
+
+/* Estilos para el texto del meme */
+#meme-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Estilos para el autor del meme */
+#meme-author {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
